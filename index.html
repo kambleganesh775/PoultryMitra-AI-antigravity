@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoultryMitra AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
+      /* Custom scrollbar for better UI */
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #f1f1f1; }
+      ::-webkit-scrollbar-thumb { background: #d97706; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #b45309; }
+      
+      /* Markdown Styles */
+      .prose p { margin-bottom: 0.5em; }
+      .prose ul { list-style-type: disc; padding-left: 1.2em; margin-bottom: 0.5em; }
+      .prose ol { list-style-type: decimal; padding-left: 1.2em; margin-bottom: 0.5em; }
+      .prose strong { font-weight: 700; color: inherit; }
+      .prose a { color: #ea580c; text-decoration: underline; }
+    </style>
+    <script>
+      window.process = window.process || { env: {} };
+      window.process.env = window.process.env || {};
+      // The platform might replace this exact string at runtime
+      window.process.env.GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+      window.process.env.API_KEY = process.env.API_KEY;
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
