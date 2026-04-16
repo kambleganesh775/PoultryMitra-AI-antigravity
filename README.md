@@ -178,7 +178,14 @@ try {
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+### 🏠 Home Interface
+![Home UI](./screenshots/home.png)
+
+### 💬 AI Assistant Interaction
+![Chat UI](./screenshots/chat.png)
+
+### 📊 Results / Suggestions
+![Results](./screenshots/result.png)
 
 ---
 
