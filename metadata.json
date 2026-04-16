@@ -1,9 +1,0 @@
-{
-  "name": "PoultryMitra AI - Indian Farm Manager",
-  "description": "A comprehensive management system for Indian poultry farming (Desi & Commercial) featuring breed tracking, cost calculation, health schedules, and AI assistance.",
-  "requestFramePermissions": [
-    "microphone",
-    "camera",
-    "geolocation"
-  ]
-}
